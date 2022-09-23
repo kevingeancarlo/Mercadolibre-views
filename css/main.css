@@ -22,11 +22,26 @@ img {
   padding: 0 20px;
 }
 .main-header__title{
-  text-align: center;
   font-size: 2.5em;
   margin: 10px 0;
   color: #9FD5D1;
   font-family: "Oswald Medium";
+  text-align: center;
+}
+.img-container_vistas{
+  height: 460px;
+  width: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.posicion_lista{
+  height: 460px;
+  width: 45%;
+  display: block;
+}
+.containerML{
+  display: flex;
 }
 .main-header__title2{
     text-align: center;
@@ -68,6 +83,7 @@ img {
   margin: auto;
   font-family: Oswald Medium;
 }
+
 .menu__link {
   padding: 20px;
   color: white;
@@ -199,6 +215,48 @@ img {
   margin: 20px auto;
   transition: all 0.5s;
 }
+/* CSS */
+.button-63 {
+  background-color: rgb(0, 110, 255); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-64 {
+  background-color: rgb(255, 174, 0); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 .btn-shop:hover{
   background: #FF4E00;
   color: white;
@@ -492,5 +550,5 @@ img {
   }
   .product__img {
     height: 200px;
-  }
+  }  
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style type="text/css">
+      .product-small-img img{width: 100%;border: 1px solid rgba(0.0.0,.2);padding: 8px;margin: 10px 10px 15px;cursor: pointer;}
+      .product-small-img{width: 8%; display: flex; display: block;}
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="../index.html" class="menu__link">HOME</a></li>
+                <li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+                <li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
+                <li class="menu__item"><a href="" class="menu__link">SHOP</a></li>
+                <li class="menu__item"><a href="" class="menu__link">CONTACT US</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+          </div>
+          <div class="main-header__container">
+          </div>
+        </div>
+    </header>
+
+<!--     <div class="producto_modelos">
+      <div class="img-container_vistas">
+        <img id="imageBox" src="../img/models.jpg">
+      </div>
+        <div class="product-small-img">
+          <img src="../img/models.jpg" onclick="myFunction(this)">
+          <img src="../img/models_uno.jpg" onclick="myFunction(this)">
+          <img src="../img/models_dos.jpg" onclick="myFunction(this)">
+          <img src="../img/model3.jpg" onclick="myFunction(this)">
+          <img src="../img/models_interior.jpg" onclick="myFunction(this)">
+        </div>
+    </div> -->
+    <div class="containerML">
+      <div class="product-small-img">
+        <img src="../img/models.jpg" onclick="myFunction(this)">
+        <img src="../img/models_uno.jpg" onclick="myFunction(this)">
+        <img src="../img/models_dos.jpg" onclick="myFunction(this)">
+        <img src="../img/model3.jpg" onclick="myFunction(this)">
+        <img src="../img/models_interior.jpg" onclick="myFunction(this)">
+      </div>
+      <div class="img-container_vistas">
+        <img id="imageBox" src="../img/models.jpg">
+      </div>
+
+      <div>
+        <p>Stock disponible</p>
+        <p>Cantidad:<h4>(3 disponibles)</h4></p>
+        <select name="cars" id="cars">
+          <option value="uno">1 unidad</option>
+          <option value="dos">2 unidades</option>
+          <option value="tres">3 unidades</option>
+          <option value="mas_de_tres">Más de 3 unidades</option>
+        </select>
+        <a href="" class="button-63">Comprar ahora</a>
+        <a href="" class="button-64">Agregar al carrito</a>
+      </div>
+      
+   </div>
+
+    <script type="text/javascript">
+        function myFunction(smalling){
+        var fullImg=document.getElementById("imageBox");
+        fullImg.src=smalling.src;
+      }
+    </script>
+
+
+  </body>
+</html>
