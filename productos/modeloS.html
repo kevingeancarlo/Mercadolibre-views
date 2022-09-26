@@ -59,16 +59,19 @@
       </div>
 
       <div>
-        <p>Stock disponible</p>
-        <p>Cantidad:<h4>(3 disponibles)</h4></p>
-        <select name="cars" id="cars">
-          <option value="uno">1 unidad</option>
-          <option value="dos">2 unidades</option>
-          <option value="tres">3 unidades</option>
-          <option value="mas_de_tres">Más de 3 unidades</option>
+        <span>Stock disponible:</span><br>
+        <p>Cantidad:<p>(3 disponibles)</p>
+        <select id="unidades_disponibles" onchange="seleccionarunidades();">
+          <option value="1 unidad">1 unidad</option>
+          <option value="2 unidades">2 unidades</option>
+          <option value="3 unidades">3 unidades</option>
+          <option value="Más de 3 unidades">Más de 3 unidades</option>
         </select>
-        <a href="" class="button-63">Comprar ahora</a>
-        <a href="" class="button-64">Agregar al carrito</a>
+        <span id="unidades_seleccionadas"></span>
+        
+        </p>
+        <a id="boton1" class="button-18">Comprar ahora</a>
+        <a href="" class="button-18">Agregar al carrito</a>
       </div>
       
    </div>
@@ -79,6 +82,8 @@
         fullImg.src=smalling.src;
       }
     </script>
+
+    <script src="../js/ex288_evento_onchange_select.js"></script>
 
 
   </body>
