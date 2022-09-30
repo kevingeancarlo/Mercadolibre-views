@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <h1 class="main-header__title">Proyecto 2</h1>
+            <h3 class="main-header__title2">Servicios Telemáticos</h3>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="" class="menu__link">HOME</a></li>
+                <!-- <li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+                <li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
+                <li class="menu__item"><a href="" class="menu__link">SHOP</a></li>
+                <li class="menu__item"><a href="" class="menu__link">CONTACT US</a></li> -->
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+          </div>
+          <div class="main-header__container">
+          </div>
+        </div>
+    </header>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="img/model3.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Modelo 3</h2>
+                    <p class="slider__txt"></p>
+                    <a href="./productos/modelo3.html" class="btn-shop">COMPRAR AHORA</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/models.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Modelo S</h2>
+                    <p class="slider__txt"></p>
+                    <a href="./productos/modeloS.html" class="btn-shop">COMPRAR AHORA</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/modely.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Modelo Y</h2>
+                    <p class="slider__txt"></p>
+                    <a href="./productos/modeloY.html" class="btn-shop">COMPRAR AHORA</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/solarpanels.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Paneles solares</h2>
+                    <p class="slider__txt"></p>
+                    <a href="./productos/paneles.html" class="btn-shop">COMPRAR AHORA</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <main class="main">
+        <h2 class="main-title">Productos en venta</h2>
+        <section class="container-products">
+          <div class="product">
+            <a href="./productos/modeloS.html"><img src="https://img.remediosdigitales.com/55c7f7/tesla-model-s-2021/840_560.jpeg"  alt="" class="product__img"></a>
+            <div class="product__description">
+              <h3 class="product__title">Modelo S</h3>
+              <span class="product__price">$140.190</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <a href="./productos/modelo3.html"><img src="https://www.elcarrocolombiano.com/wp-content/uploads/2019/03/20190301-TESLA-MODEL-3-MAS-BARATO-01.jpg" alt="" class="product__img"></a>
+            <div class="product__description">
+              <h3 class="product__title">Modelo 3</h3>
+              <span class="product__price">$170.080</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <a href="./productos/modeloY.html"><img src="https://img.remediosdigitales.com/d1c86e/tesla-model-y-rwd.jpg-41/450_1000.jpeg" alt="" class="product__img"></a>
+            <div class="product__description">
+              <h3 class="product__title">Modelo Y</h3>
+              <span class="product__price">$200.000</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <a href="./productos/paneles.html"><img src="https://tesla-cdn.thron.com/delivery/public/image/tesla/4ebaa03a-92ce-4d40-b878-eaf6c848aafd/bvlatuR/std/2880x1800/_25-solar-panels-support" alt="" class="product__img"></a>
+            <div class="product__description">
+              <h3 class="product__title">Paneles solares</h3>
+              <span class="product__price">$67.000</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+        </section>
+        <section class="container__testimonials">
+          <h2 class="section__title">Testimonios</h2>
+          <h3 class="testimonial__title">Julian</h3>
+          <p class="testimonial__txt">Estoy muy satisfecho con mi compra, definitivamente es el carro del futuro!!!</p>
+        </section>
+      
+        <div class="container-editor">
+          <div class="editor__item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0196%2F5170%2Ffiles%2FTesla-Cyber-Roadster-2.jpg&f=1&nofb=1" alt="" class="editor__img">
+            <p class="editor__circle">El futuro es hoy</p>
+          </div>
+          <div class="editor__item">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-cybercar-render-1575891149.jpg" alt="" class="editor__img">
+            <p class="editor__circle">El futuro es hoy</p>
+          </div>
+        </div>
+        <section class="container-tips">
+          <div class="tip">
+            <i class="far fa-hand-paper"></i> 
+            <h2 class="tip__title">Satisfacción Garantizada</h2>
+            <p class="tip__txt"></p>
+            <a href="" class="btn-shop">COMPRAR AHORA</a>
+          </div>
+          <div class="tip">
+           <i class="fas fa-rocket"></i>
+            <h2 class="tip__title">Envío Rápido</h2>
+            <p class="tip__txt"></p>
+            <a href="" class="btn-shop">COMPRAR AHORA</a>
+          </div>
+          <div class="tip">
+            <i class="fas fa-cog"></i>
+            <h2 class="tip__title">Protección contra accidentes</h2>
+            <p class="tip__txt"></p>
+            <a href="" class="btn-shop">COMPRAR AHORA</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer__section">
+        <h2 class="footer__title">Sobre nosotros</h2>
+        <p class="footer__txt">Estudiantes de Ingenieria en telecomunicaciones, enfocados en el desarrollo y venta de servicios.</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Ubicación</h2>
+        <p class="footer__txt">Universidad Distrital Francisco José de Caldas Calle-13 # 31 -75 Bogotá D.C. - República de Colombia</p>
+        <h2 class="footer__title">Contacto</h2>
+        <p class="footer__txt">Móvil: +57 3473478342</p>
+        <p class="footer__txt">Móvil: +57 3937374536</p>
+        <p class="footer__txt">Email: kgpayaresm@correo.udistrital.edu.co</p>
+        <p class="footer__txt">Email: juegarcia@correo.udistrital.edu.co</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Acceso rápido</h2>
+        <a href="" class="footer__link">Home</a>
+        <a href="" class="footer__link">About</a>
+        <a href="" class="footer__link">Shop</a>
+        <a href="" class="footer__link">Contact Us</a>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Registrate para recibir ofertas</h2>
+        <p class="footer__txt">Con la suscripción a nuestra lista de correos recibirás las ultimas noticias!</p>
+        <input type="email" class="footer__input" placeholder="Ingresa tu e-mail">
+      </div>
+      <p class="copy">© 2022 Proyecto 2</p>
+    </footer>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="js/slider.js"></script>
+</body>
+</html>
